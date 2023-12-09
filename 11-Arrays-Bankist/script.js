@@ -213,6 +213,25 @@ btnSort.addEventListener('click', function (e) {
 // /////////////////////////////////////////////////
 // // LECTURES
 
+// const x = new Array(7);
+// x.fill(1);
+// console.log(x);
+
+// const y = Array.from({ length: 7 }, () => 2);
+// console.log(y);
+
+// const z = Array.from({ length: 7 }, (_, i) => i + 1);
+// console.log(z);
+
+// labelBalance.addEventListener('click', function () {
+//   const movementsUI = Array.from(
+//     document.querySelectorAll('.movements__value'),
+//     el => el.textContent.replace('€', '')
+//   );
+
+//   console.log(movementsUI);
+// });
+
 // const overallBalance = accounts
 //   .map(acc => acc.movements)
 //   .flat()
